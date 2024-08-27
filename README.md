@@ -3,7 +3,9 @@
 This project provides a simple HTTP server that listens for incoming requests and generates text-to-speech (TTS) audio using the BarkModel. The audio generation is performed by a Python script. The server can handle requests to generate audio files based on provided text and voice preset parameters.
 
 ## Prerequisites
-
+### 0. Graphics card with at least 12GB vRAM
+- Bark model takes a lot of GPU resources to operate. You can use it on cards with less but you are looking at very slow generation. We are specifically using the CUDA enabled packages too so its down to hardware to speed this up.
+  
 ### 1. Python Setup
 - Ensure Python 3 is installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
 - Install the required Python packages by running:
