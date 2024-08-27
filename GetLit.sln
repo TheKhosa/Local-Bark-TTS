@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetLit", "GetLit\GetLit.csproj", "{9BE5C640-E9F3-4565-8BC9-641C9DBC8C9E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLTTS", "MLTTS\MLTTS.csproj", "{EC59A18D-3DFA-492D-B1DE-81D80B69C230}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarkAPI", "BarkAPI\BarkAPI.csproj", "{93B63EE0-A319-46D3-85B7-DE4821EE5A37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BE5C640-E9F3-4565-8BC9-641C9DBC8C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BE5C640-E9F3-4565-8BC9-641C9DBC8C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BE5C640-E9F3-4565-8BC9-641C9DBC8C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE5C640-E9F3-4565-8BC9-641C9DBC8C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC59A18D-3DFA-492D-B1DE-81D80B69C230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC59A18D-3DFA-492D-B1DE-81D80B69C230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC59A18D-3DFA-492D-B1DE-81D80B69C230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC59A18D-3DFA-492D-B1DE-81D80B69C230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93B63EE0-A319-46D3-85B7-DE4821EE5A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93B63EE0-A319-46D3-85B7-DE4821EE5A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93B63EE0-A319-46D3-85B7-DE4821EE5A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93B63EE0-A319-46D3-85B7-DE4821EE5A37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E12D675-A869-49AC-81D3-CDC3358FF455}
+	EndGlobalSection
+EndGlobal
