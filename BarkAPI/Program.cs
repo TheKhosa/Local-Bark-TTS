@@ -48,7 +48,9 @@ namespace BarkAPI
                     dynamic payload = JsonConvert.DeserializeObject(requestBody);
                     string text = payload?.text ?? "Hello";
                     string voicePreset = payload?.voice_preset ?? "v2/en_speaker_9";
-                    string outputFilename = "output.wav";
+                    
+                    Random number  = new Random();
+                    string outputFilename = number.Next()+".wav";
 
                     Trace.TraceInformation($"Generating audio for text: {text} with voice preset: {voicePreset}");
                     string result = GenerateTTSWithExternalScript(text, voicePreset, outputFilename);
