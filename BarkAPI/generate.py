@@ -37,15 +37,15 @@ def main(script, output_filename, voice_preset):
     silence = np.zeros(int(silence_duration * SAMPLE_RATE))  # Quarter second of silence
 
     def process_sentence(sentence, index):
-        # Process the sentence with the processor
+        # Process the sentence with the processor including the voice preset
         inputs = processor(sentence, voice_preset=voice_preset)
         
         # Move processor outputs to GPU
         inputs = {key: value.to(device) for key, value in inputs.items()}
-        
+
         # Generate audio using the model
         sentence_audio = model.generate(**inputs)
-        
+
         # Move the generated audio back to the CPU
         sentence_audio = sentence_audio.cpu().numpy().squeeze()  # Move to CPU and remove batch dimension
         
