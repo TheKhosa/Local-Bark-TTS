@@ -8,7 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NAudio" Version="2.2.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Python.Included" Version="3.11.6" />
+    <PackageReference Include="Python.Runtime" Version="2.7.9" />
   </ItemGroup>
 
 </Project>
